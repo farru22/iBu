@@ -1,0 +1,246 @@
+*{
+  margin: 0;
+  border: border-box;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height:60px;
+    width: 100px;
+}
+.logo{
+    background-image: url(attachment_89607667.png);
+    background-size: cover;
+    height:60px;
+    width: 100%;
+}
+.border{
+    border: 0.5px solid transparent;
+    border-radius: 5px;
+}
+.border:hover{
+    border: 1px solid white;    
+}
+.placeholder{
+    border-radius: 3px;
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 38px;
+    text-align: left;
+    font-size: 1rem;
+    border: none;
+}
+.Select{
+    border-radius: 3px;
+    background-color: #f3f3f3;
+    width: 50px;
+    height: 40px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius:4px ;
+    text-align: center;
+    border: none;
+    /* //margin-left: 50px; */
+}
+.search-box{
+    justify-content: space-evenly;
+    margin-left: 50px;
+    align-items: center;
+    /* background-color: red; */
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+}
+.icon{
+    margin-left: 3px;
+    color: white;
+    border: none;
+    /* background-color: yellow; */
+    width: 40px;
+    height: 35px;
+    margin-top: 8px;
+    border-radius: 3px; 
+}
+.nav-address{
+    margin-left: 6px;
+}
+.address-icon{
+    /* justify-content: space-evenly; */
+    display: flex;
+}
+.deliver{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.India{
+    color: #ffffff;
+    margin-left: 3px;
+}
+
+.buy{
+    color: #ffffff;
+    margin-left: 3px;
+}
+.sell{
+    display: flex;
+}
+.Sell{
+    margin-left: 3px;
+}
+.or{
+    font-size: 0.65rem;
+}
+.login{
+    font-size: 0.85rem;
+}
+.icon2{
+    margin-left: 15px;
+}
+
+.cart{
+    display: flex;
+}
+.cart i{
+    font-size: 30px;
+}
+
+.cart2{
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.panel{
+    height: 40px;
+    background-color: rgb(1, 35, 73);
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    /* justify-content: space-betw; */
+}
+
+.items{
+    display: flex;
+    text-align: justify;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.login-border a{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.hero-sec{
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-image: url(shoes3.webp);
+    animation: changeImage 20s linear infinite;
+}
+
+@keyframes changeImage {
+    0%{
+        background-image: url(Cloths.jpeg);
+    }
+    25%{
+        background-image: url(watches.webp);
+    }
+    75%{
+        background-image: url(vintagecars.jpeg);
+    }
+    100%{
+        background-image: url(Shoes.jpeg);
+    }
+}
+.front-d a{
+    text-decoration: none;
+    color: white;
+}
+.message {
+    color: white;
+    margin-top: 300px;
+    text-align: center;
+    font-weight: 700;  
+    font-size: 50px;  /* position: relative; */
+    justify-content: center;
+}
+
+.shop-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #cccccc;
+}
+.box{
+    height: 400px;
+    width: 30%;
+    /* border: 2px solid black; */
+    background-color: white;
+    background-size: cover;
+    padding: 5px 0 15px;
+    margin: 15px;
+}
+
+.box-img{
+    height: 320px;
+    background-size: cover;
+    /* background-image: url(shoe1.jpeg); */
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.90rem;
+}
+
+.foot-panel2{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+}
+ul{
+    margin-top: 25px;
+}
+.foot-panel2 a{
+    text-decoration: none;
+    color: #dddddd;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.payment p{
+    /* margin-top: 25px; */
+    color: #dddddd;
+}
+.payment{
+    margin-top: 100px;
+    background-image: url(paymentSystem.webp);
+    /* background-size: cover; */
+    height: 110px;
+    width: 700px;
+}
